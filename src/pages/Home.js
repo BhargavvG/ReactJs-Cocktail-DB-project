@@ -33,8 +33,6 @@ export default function Home() {
                 glass: strGlass,
               };
             });
-            console.log(cocktails);
-            console.log(newCocktails);
             setCocktails(newCocktails);
           } else {
             setCocktails([]);
